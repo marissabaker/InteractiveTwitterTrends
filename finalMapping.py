@@ -3,7 +3,7 @@
 """
 Created on Thu May  2 00:22:00 2019
 
-@author: marissabaker
+@author: marissabaker and Lilian Gjertsson
 """
 
 #!/usr/bin/env python3
@@ -11,12 +11,13 @@ Created on Thu May  2 00:22:00 2019
 """
 Created on Thu Apr 25 14:18:04 2019
 
-@author: marissabaker
+@author: Marissa Baker and Lilian Gjertsson
 """
 
 import tweepy
 import json
 import csv
+import plotly
 import plotly.graph_objs as go
 plotly.tools.set_credentials_file(username='marissabaker', api_key='o5D2U1bVcVTXucvxWSTw')
 import pandas as pd
